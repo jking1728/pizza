@@ -27,13 +27,19 @@
             <div class="form-group">
                 <p>Select Toppings</p>
                 <input type="checkbox" name="toppings" value="pepperoni">Pepperoni.<br>
-                <input type="checkbox" name="toppings" value="bacon">Bacon.<br>
+                <input type="checkbox" name="toppings" value="canadian bacon">Canadian Bacon.<br>
+                <input type="checkbox" name="toppings" value="sausage">Sausage<br>
+                <input type="checkbox" name="toppings" value="ground beef">Ground Beef.<br>
                 <input type="checkbox" name="toppings" value="mushrooms">Mushrooms.<br>
+                <input type="checkbox" name="toppings" value="olives">Olives.<br>
+                <input type="checkbox" name="toppings" value="onions">Onions.<br>
+                <input type="checkbox" name="toppings" value="green pepper">Green Pepper.<br>
             </div>
             <button class="btn btn-primary">Order!</button>
         </form>
         <div id="reciept">
-
+            <h1>Thank you for your order!</h1><hr>
+            <p>You ordered a <span id="receiptSize"></span> size pizza with <span id="receiptToppings"></span>. Your total Price is $<span id="receiptPrice"></span>!</p>
         </div>
 
 
