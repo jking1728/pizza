@@ -31,8 +31,6 @@ $(document).ready(function() {
         });
         var myPizza = new Pizza(sizeInput, toppingsArray);
         var finalPrice = myPizza.getPrice();
-        console.log(finalPrice);
-        console.log(sizeInput);
         $("form#pizzaForm").toggle();
         $("div#reciept").toggle();
         $("span#receiptSize").text(sizeInput);
